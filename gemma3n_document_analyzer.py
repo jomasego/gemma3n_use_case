@@ -281,4 +281,3 @@ if st.sidebar.button("🔧 Test Connection"):
             st.sidebar.error("❌ Connection failed")
     except Exception as e:
         st.sidebar.error(f"❌ Error: {str(e)}")
-Asset 13 of 15
