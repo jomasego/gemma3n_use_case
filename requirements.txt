@@ -1,0 +1,32 @@
+# Gemma 3n Applications Requirements
+
+# Core dependencies
+streamlit>=1.28.0
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Voice Assistant specific
+speechrecognition>=3.10.0
+gtts>=2.4.0
+pygame>=2.5.0
+pydub>=0.25.0
+pyaudio>=0.2.11
+
+# Multimodal processing
+opencv-python>=4.8.0
+librosa>=0.10.0
+
+# API clients
+together>=0.2.0
+google-generativeai>=0.3.0
+
+# Development tools
+black>=23.0.0
+pytest>=7.4.0
+flake8>=6.0.0
+
+# Optional: For advanced features
+transformers>=4.35.0
+torch>=2.1.0
